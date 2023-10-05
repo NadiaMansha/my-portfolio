@@ -3,7 +3,7 @@ import './Services.css'
 
 export const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id='services'>
     <div
     className='services_content'
     >
@@ -19,7 +19,11 @@ export const Services = () => {
           web services and online stores.
         </p>
         <button>
+        <a  
+        style={{color:'black'}}
+        href="mailto:nadia.mansha.dev@gmail.com">
             LET'S TALK
+            </a>
         </button>
         </div>
         <div className="services__cards">

@@ -21,15 +21,30 @@ export const Home = () => {
         <br />
         <h2>WEB/APP DEVELOPER</h2>
         <p>From Concept to Code: Shaping the Future of the Digital Realm.</p>
-        <button>LET'S TALK</button>
+        <button>
+        <a href="mailto:nadia.mansha.dev@gmail.com">
+          LET'S TALK
+          </a>
+          </button>
         <div className="home_social">
           <p>Follow me</p>
           <div className="home_social__icons">
+          <a href="https://www.facebook.com/profile.php?id=100019569817354" target="_blank">
             <BiLogoFacebookCircle className="home_social__icons__icon" />
+            </a>
+          
+            <a href="https://www.instagram.com/nadia_mansha2481/" target="_blank">
             <BiLogoInstagramAlt className="home_social__icons__icon" />
+            </a>
+          
+            <a href="https://www.linkedin.com/mwlite/profile/me?trk=p_mwlite_feed_updates-secondary_nav" target="_blank">
             <BiLogoLinkedin className="home_social__icons__icon" />
+            </a>
+        
+
+            <a href="https://github.com/NadiaMansha" target="_blank">
             <BiLogoGithub className="home_social__icons__icon" />
-            <BiLogoTwitter className="home_social__icons__icon" />
+            </a>
           </div>
         </div>
       </div>

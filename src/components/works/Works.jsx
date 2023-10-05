@@ -6,7 +6,7 @@ import Projects   from '../../assets/data/projects.js'
 export const Works = () => {
   const projects = Projects.map((project) => <Project key={project.id} project={project} />)
   return (
-    <div className="works">
+    <div className="works" id='works'>
         <div className="works__content">
         <div
          style={

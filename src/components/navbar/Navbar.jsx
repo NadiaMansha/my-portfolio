@@ -27,7 +27,13 @@ export const Navbar = () => {
         </ul>
       </div>
       <div className="navbar__right">
-        <button>Contact Me</button>
+        <button>
+        <a 
+        style={{color:'black'}}
+         href="mailto:nadia.mansha.dev@gmail.com">
+          Contact Me
+         </a>
+        </button>
       </div>
       <div className="mobile_navbar">
         {
