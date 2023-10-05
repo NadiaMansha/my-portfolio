@@ -45,16 +45,16 @@ export const Navbar = () => {
                   className="navbar__hamburger__icon_close"
                   onClick={()=>setShowLinks(false)} />
                   <ul >
-          <li>
+          <li onClick={()=>setShowLinks(false)}>
             <a href="#">Home</a>
           </li>
-          <li>
+          <li onClick={()=>setShowLinks(false)}>
             <a href="#about">About</a>
           </li>
-          <li>
+          <li onClick={()=>setShowLinks(false)}>
             <a href="#services">Services</a>
           </li>
-          <li>
+          <li onClick={()=>setShowLinks(false)}>
             <a href="#works">Works</a>
           </li>
           
