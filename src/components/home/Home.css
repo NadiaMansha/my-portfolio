@@ -1,0 +1,159 @@
+.home{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.main{
+    margin-top: 60px;
+    margin-left: 200px;
+    height: 60vh;
+    margin-bottom: 20px;
+}
+.home h1{
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.home  h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.home p{
+    font-size: 20px;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.home button{
+    padding: 8px 20px;
+    margin: 0px 10px;
+    border: 1px solid #3d3a3a;
+    background-color:#3d3a3a;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.home button:hover{
+    background-color: #fff;
+    color: #3d3a3a;
+   
+}
+.home_social{
+    display: flex;
+ 
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.home_social p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.home_social__icons{
+    display: flex;
+align-items: center;
+   
+}
+
+.home_social__icons__icon{
+    font-size: 25px;
+    margin-right: 10px;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.home_social__icons__icon:hover{
+    color: #3d3a3a;
+}
+
+
+/*Responsive for Home component*/
+@media screen  and(max-width: 1024px){
+    .main{
+        margin-left: 150px;
+    }
+    .home h1{
+        font-size: 30px;
+    }
+    .home  h2{
+        font-size: 30px;
+    }
+    .home p{
+        font-size: 15px;
+    }
+    .home button{
+        padding: 5px 15px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .main{
+       margin-left: 100px;
+      
+    }
+    .home h1{
+     
+        font-size: 30px;
+       
+    
+    }
+    .home  h2{
+        font-size: 30px;
+  
+    }
+    .home p{
+        font-size: 15px;
+       
+    }
+    .home button{
+        padding: 5px 15px;
+        
+    }
+}
+
+@media screen and (max-width: 480px){
+    .main{
+        margin-left: 50px;
+    }
+    .home h1{
+        font-size: 25px;
+    }
+    .home  h2{
+        font-size: 25px;
+    }
+    .home p{
+        font-size: 15px;
+    }
+    .home button{
+        padding: 5px 15px;
+    }
+    .home_social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home_social__icons{
+        display: flex;
+        justify-content: center;
+    }
+    .home_social__icons__icon{
+        font-size: 25px;
+        margin-right: 10px;
+        color: #555;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .home_social__icons__icon:hover{
+        color: #3d3a3a;
+    }
+}
+
+

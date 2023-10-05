@@ -1,0 +1,139 @@
+.navbar{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar__center ul{
+    display: flex;
+    list-style: none;
+}
+.navbar__center ul li{
+    margin: 0px 10px;
+}
+.navbar__center ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+.navbar__center ul li a:hover{
+    color: #000;
+}
+.navbar__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar__right button{
+    padding: 8px 20px;
+    margin: 0px 10px;
+    border: 1px solid #555;
+    background-color: #fff;
+    color: #555;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.navbar__right button:hover{
+    background-color: #555;
+    color: #fff;
+}
+.mobile_navbar{
+    display: none;
+}
+.navbar__links{
+    display: none;
+}
+
+/*Responsive Navbar*/
+@media screen and (max-width: 768px){
+    .navbar__left h1{
+        font-size: 21px;
+    }
+  
+    .navbar__center ul li{
+        margin: 0px 8px;
+    }
+    .navbar__center ul li a{
+        font-size: 16px;
+       
+    }
+    .navbar__right button{
+        padding: 7px 15px;
+       
+    }
+   
+}
+
+@media screen and (max-width: 425px){
+    .navbar__left h1{
+        font-size: 18px;
+    }
+    .navbar__center ul {
+       display: none;
+    }
+    .mobile_navbar{
+        display: flex;
+        
+    }
+   
+    .navbar__hamburger__icon_close{
+        color: #fff;
+          font-size: 30px;
+        margin-right: 20px; 
+        margin-top: 20px;
+        align-self: flex-end;
+    }
+   .navbar__links{
+    background:  #3d3a3a;
+    display: flex;
+    position: fixed;
+    top:0;
+    right: 10px;
+  
+    transition: 0.5s ease;
+    flex-direction: column;
+    z-index: 5;
+
+    }
+    .navbar__links ul{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        transition: all 0.5s ease-in-out;
+       height: 100vh;
+     
+    }
+    .navbar__links ul li{
+        list-style: none;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+      .navbar__links ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+  
+    .navbar__right button{
+       display: none;
+       
+       
+    }
+   
+}
+   
+
