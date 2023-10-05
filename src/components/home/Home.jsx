@@ -16,11 +16,13 @@ export const Home = () => {
         <div
           style={{ height: "4px", width: "100px", backgroundColor: "#3d3a3a" }}
         ></div>
-
-        <h1>I'M NADIA MANSHA</h1>
+       <div id="about">
+       <h1>I'M NADIA MANSHA</h1>
         <br />
         <h2>WEB/APP DEVELOPER</h2>
         <p>From Concept to Code: Shaping the Future of the Digital Realm.</p>
+       </div>
+       
         <button>
         <a href="mailto:nadia.mansha.dev@gmail.com">
           LET'S TALK

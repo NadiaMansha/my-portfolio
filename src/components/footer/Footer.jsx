@@ -11,11 +11,18 @@ export const Footer = () => {
    <div className="footer">
         <div className="navbar__center">
                 <ul className="navbar__center__list">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                  
-                    <li><a href="">Works</a></li>
-                    <li><a href="">Testimonials</a></li>
+                <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#works">Works</a>
+          </li>
                     
                     </ul>
                 </div>

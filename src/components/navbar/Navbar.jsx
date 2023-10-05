@@ -12,17 +12,17 @@ export const Navbar = () => {
       </div>
       <div className="navbar__center">
         <ul className="navbar__center__list">
-          <li>
-            <a href="">Home</a>
+        <li>
+            <a href="#">Home</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="">Works</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a href="">Testimonials</a>
+            <a href="#works">Works</a>
           </li>
         </ul>
       </div>
@@ -46,17 +46,18 @@ export const Navbar = () => {
                   onClick={()=>setShowLinks(false)} />
                   <ul >
           <li>
-            <a href="">Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="">Works</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a href="">Testimonials</a>
+            <a href="#works">Works</a>
           </li>
+          
         </ul>
             </div>
           
