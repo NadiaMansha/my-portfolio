@@ -3,6 +3,7 @@ import image2 from '../image2.jpeg'
 import image3 from '../image3.jpeg'
 import sociahub from '../sociahub.png'
 import eventhub from '../eventhub.png'
+import bookstore from '../bookstore.png'
 
 
 
@@ -52,5 +53,18 @@ export default[
         github:"https://github.com/NadiaMansha/sociahub",
         link:"https://sociahub.com"
     },
-    
+    {
+        id:4,
+        type:"web",
+        name:"BookStore",
+        description:"An Ecommerce website for buying books",
+        "images":[
+            bookstore
+        ],
+        technologies:["React","Html","Css","Node.js","MongoDB","Express","Redux"],
+        github:"https://github.com/NadiaMansha/bookstore",
+        backend:"https://github.com/NadiaMansha/bookstore_backend",
+        link:"https://stellar-genie-69ef3c.netlify.app/"
+
+    }    
 ]
