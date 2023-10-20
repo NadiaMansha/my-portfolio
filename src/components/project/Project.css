@@ -72,3 +72,17 @@
     }
 }
 
+@media screen and (max-width: 320px){
+    .project{
+        width: 250px;
+        height: 400px;
+    }
+    .project-image img{
+        width: 150px;
+        height: 200px;
+    }
+    
+}
+
+
+
