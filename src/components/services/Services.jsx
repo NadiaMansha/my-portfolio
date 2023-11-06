@@ -16,7 +16,7 @@ export const Services = () => {
         <p>
         I design and develop services for customers of all sizes, <br />
          specializing in creating stylish, modern websites, <br />
-          web services and online stores.
+          web services and apps.
         </p>
         <button>
         <a  
@@ -33,9 +33,11 @@ export const Services = () => {
                     </div>
                     <h2>Web Development</h2>
                     <p>
-                    I design and develop services for customers of all sizes, <br />
-                        specializing in creating stylish, modern websites<br />
-                         web services and online stores.
+                    As a web and app developer,I excel in a variety of programming languages, including but not limited to HTML, CSS, JavaScript,
+                     and a wide range of front-end and back-end technologies. This expertise enables the creation of responsive, user-friendly
+                      and visually appealing websites and applications that meet both client and end-user requirements.
+
+
                     </p>
                     </div>
                     <div className="services__cards__card">
@@ -44,9 +46,10 @@ export const Services = () => {
                     </div>
                     <h2>App Develpment</h2>
                     <p>
-                    I design and develop services for customers of all sizes, <br />
-                        specializing in creating stylish, modern websites, <br />
-                         web services and online stores.
+                    I am well-versed in developing mobile applications for various platforms, including iOS and Android
+                     and has a strong command of app development frameworks,
+                     such as Flutter.This proficiency allows for the seamless transition of ideas into functional 
+                     and engaging mobile apps.
                     </p>
                     </div>
                     </div>

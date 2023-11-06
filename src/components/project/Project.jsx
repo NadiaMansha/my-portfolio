@@ -14,7 +14,7 @@ export const Project = ({
             <p>
          {project.description}
             </p>
-         <button >
+         <button>
           <Link to={`/project/${project.id}`}>View Details
           </Link>
          </button>

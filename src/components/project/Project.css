@@ -29,6 +29,11 @@
   
     margin-bottom: 10px;
 }
+.project-info a:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color: #3d3a3a;
+}
 
 .project-image img{
     margin-top: 20px;

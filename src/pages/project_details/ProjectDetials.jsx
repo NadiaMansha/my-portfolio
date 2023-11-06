@@ -63,14 +63,16 @@ const ProjectDetials = () => {
         {
           project.github&&
           <button>
-            <a href={project.github} target="_blank" rel="noreferrer">Github</a>
+            <a href={project.github} target="_blank" rel="noreferrer">Frontend Code</a>
           </button>
          
         }
         {
            project.backend &&
            <button>
-             <a href={project.backend}>Backend</a>
+             <a 
+                 target='_blank' rel='noreferrer'
+             href={project.backend}>Backend Code</a>
            </button>
         }
         {

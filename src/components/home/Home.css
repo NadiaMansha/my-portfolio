@@ -38,11 +38,8 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.home button:hover{
-    background-color: #fff;
-    color: #3d3a3a;
-   
-}
+
+
 .home_social{
     display: flex;
  
