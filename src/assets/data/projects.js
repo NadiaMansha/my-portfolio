@@ -44,7 +44,7 @@ export default[
             tastebite
         ],
         technologies:["React","Html","Css","Spoonacular API"],
-        github:"",
+        github:"https://github.com/NadiaMansha/tastebite",
 
         link:"https://unrivaled-torte-8859f1.netlify.app/"
     },  
@@ -76,7 +76,7 @@ export default[
         ],
         technologies:["Flutter","Firebase","Node.js","MongoDB"],
         github:"https://github.com/NadiaMansha/event_hub",
-        backend:"https://github.com/NadiaMansha/event_hub_backend",
+        backend:"https://github.com/NadiaMansha/EventhubBackend",
        
 
         
