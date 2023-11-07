@@ -18,7 +18,7 @@ export default[
             sociahub
         ],
         technologies:["React","Html","Css"],
-        github:"https://github.com/NadiaMansha/sociahub",
+        github:"https://github.com/NadiaMansha/BusinessLandingPage",
         link:"https://sociahub.com"
     },
     {
@@ -31,7 +31,7 @@ export default[
         ],
         technologies:["React","Html","Css","Node.js","MongoDB","Express","Redux"],
         github:"https://github.com/NadiaMansha/bookstore",
-        backend:"https://github.com/NadiaMansha/bookstore_backend",
+        backend:"https://github.com/NadiaMansha/Ecommercebackend",
         link:"https://stellar-genie-69ef3c.netlify.app/"
 
     },
