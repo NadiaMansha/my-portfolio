@@ -2,9 +2,16 @@ import image1 from '../image1.jpeg'
 import image2 from '../image2.jpeg'
 import image3 from '../image3.jpeg'
 import sociahub from '../sociahub.png'
-import eventhub from '../eventhub.png'
 import bookstore from '../bookstore.png'
 import tastebite from '../tastebite.png'
+import sociahub1 from '../sociahub1.jpeg'
+import sociahub2 from '../sociahub2.jpeg'
+import sociahub3 from '../sociahub3.jpeg'
+import sociahub4 from '../sociahub4.jpeg'
+import fyp1 from '../img1.jpeg'
+import fyp2 from '../img2.jpeg'
+import fyp3 from '../img3.jpeg'
+import fyp4 from '../img4.jpeg'
 
 
 
@@ -69,16 +76,38 @@ export default[
     {
         id:5,
         type:"mobile",
-        name:"Event Hub",
+        name:"Socia Hub",
         description:"An app to join and create events",
         "images":[
-            eventhub
+          
+            sociahub1,
+            sociahub2,
+            sociahub3,
+            sociahub4,
+          
         ],
+        
         technologies:["Flutter","Firebase","Node.js","MongoDB"],
         github:"https://github.com/NadiaMansha/event_hub",
         backend:"https://github.com/NadiaMansha/EventhubBackend",
-       
-
+        
+    },
+    {
+        id:6,
+        type:"mobile",
+        name:"Doctor Hunt",
+        description:"An app  to find doctors,pathologists and book appointments with them.",
+        "images":[
+            fyp1,
+            fyp2,
+            fyp3,
+            fyp4
+          
+        ],
+        
+        technologies:["Flutter","Firebase","Node.js","MongoDB"],
+        github:"https://github.com/NadiaMansha/doctors_hunt",
+        backend:"https://github.com/NadiaMansha/doc_hunt_backend",
         
     },
      
